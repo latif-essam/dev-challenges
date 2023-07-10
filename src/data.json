@@ -1,0 +1,38 @@
+[
+  {
+    "path": "photo1.png",
+    "fname": "Bill",
+    "lname": "Mahoney",
+    "title": "Product  Owner"
+  },
+  {
+    "path": "photo2.png",
+    "fname": "Saba",
+    "lname": "Cabrea",
+    "title": "Art Director"
+  },
+  {
+    "path": "photo3.png",
+    "fname": "Shae",
+    "lname": "Le",
+    "title": "Tech Lead"
+  },
+  {
+    "path": "photo4.png",
+    "fname": "Skylah",
+    "lname": "Lu",
+    "title": "Ux Designer"
+  },
+  {
+    "path": "photo5.png",
+    "fname": "Griff",
+    "lname": "Richards",
+    "title": "Developer"
+  },
+  {
+    "path": "photo6.png",
+    "fname": "Stan",
+    "lname": "John",
+    "title": "Developer"
+  }
+]
