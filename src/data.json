@@ -1,0 +1,50 @@
+[
+  {
+    "path": "/images/photo1.png",
+    "fname": "Bill",
+    "lname": "Mahoney",
+    "title": "Product  Owner",
+    "mid_desk": false,
+    "mid_mobile": false
+  },
+  {
+    "path": "/images/photo2.png",
+    "fname": "Saba",
+    "lname": "Cabrea",
+    "title": "Art Director",
+    "mid_desk": true,
+    "mid_mobile": true
+  },
+  {
+    "path": "/images/photo3.png",
+    "fname": "Shae",
+    "lname": "Le",
+    "title": "Tech Lead",
+    "mid_desk": false,
+    "mid_mobile": false
+  },
+  {
+    "path": "/images/photo4.png",
+    "fname": "Skylah",
+    "lname": "Lu",
+    "title": "Ux Designer",
+    "mid_desk": false,
+    "mid_mobile": true
+  },
+  {
+    "path": "/images/photo5.png",
+    "fname": "Griff",
+    "lname": "Richards",
+    "title": "Developer",
+    "mid_desk": true,
+    "mid_mobile": false
+  },
+  {
+    "path": "/images/photo6.png",
+    "fname": "Stan",
+    "lname": "John",
+    "title": "Developer",
+    "mid_desk": false,
+    "mid_mobile": true
+  }
+]

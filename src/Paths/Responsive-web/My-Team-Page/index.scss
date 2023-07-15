@@ -1,0 +1,186 @@
+.mtp-app {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+header {
+  max-width: 799px;
+  margin-inline: auto;
+  padding-inline: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-block-end: 50px;
+  &:first-child {
+    font-family: Serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    text-align: left;
+    color: black;
+    flex: 1;
+  }
+  .header_info,
+  h1 {
+    flex: 0 0 50%;
+  }
+  @media screen and (max-width: 768px) {
+    .header_info,
+    h1 {
+      flex: 0 0 100%;
+    }
+  }
+
+  .header_info h2 {
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+  }
+
+  .header_info p {
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+  }
+}
+
+// card container start
+.card_container {
+  margin-inline: auto;
+  max-width: 799px;
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 150px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  // align-items: center;
+}
+
+// card container end
+
+// card :start
+
+.card {
+  width: 185px;
+  height: 260px;
+  position: relative;
+  .name,
+  img,
+  .title {
+    position: absolute;
+  }
+
+  img {
+    transition: left 0.4s 0.2s ease-in-out;
+    width: 155px;
+    left: 0;
+  }
+  .name {
+    bottom: 0%;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    transition: all 0.6s ease-in;
+    left: 0px;
+  }
+  .title {
+    text-transform: uppercase;
+    float: right;
+    right: 5px;
+    writing-mode: vertical-lr;
+    font-family: serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    transition: all 0.8s ease-in-out;
+    z-index: 15;
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+
+  img {
+    left: 26px;
+  }
+  .title {
+    float: right;
+    right: 90%;
+    font-weight: 600;
+  }
+  .name {
+    text-align: center;
+    left: 15%;
+    transform: rotate(360deg);
+  }
+}
+
+.mid_desk {
+  margin-block-start: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  div .app {
+    margin-inline: 20px;
+  }
+  header h1 {
+    margin-block-end: 20px;
+    font-size: 40px;
+  }
+
+  .mid_desk {
+    margin-block-start: 0px;
+  }
+
+  .mid_mobile {
+    margin-block-start: 50px;
+  }
+  .card_container {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 150px;
+    height: 210px;
+
+    img {
+      width: 125px;
+    }
+    .name {
+      font-size: 15px;
+    }
+  }
+}
+
+//footer-start
+footer {
+  margin-inline: auto;
+  text-align: center;
+  margin-block: 50px 20px;
+  p {
+    color: #a9a9a9;
+    font-size: 20px;
+    span {
+      text-decoration: underline;
+    }
+  }
+}
+//footer-end

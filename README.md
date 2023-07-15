@@ -1,6 +1,10 @@
 <!-- Please update value in the {}  -->
 
+<<<<<<< HEAD
 <h1 align="center">404 Not Found</h1>
+=======
+<h1 align="center">{Your project name}</h1>
+>>>>>>> 951dcbb506dbb9b68c96e3af7e82cbc3b523b1e5
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -16,7 +20,11 @@
       Solution
     </a>
     <span> | </span>
+<<<<<<< HEAD
     <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+=======
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+>>>>>>> 951dcbb506dbb9b68c96e3af7e82cbc3b523b1e5
       Challenge
     </a>
   </h3>
@@ -57,7 +65,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
+<<<<<<< HEAD
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+=======
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
+>>>>>>> 951dcbb506dbb9b68c96e3af7e82cbc3b523b1e5
 
 ## Acknowledgements
 

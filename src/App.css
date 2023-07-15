@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div .app {
+  margin-block-start: 60px;
+  margin-inline: 10%;
+}
