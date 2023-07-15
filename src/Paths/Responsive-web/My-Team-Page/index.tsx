@@ -2,10 +2,9 @@ import React, { PropsWithChildren } from "react";
 import "./index.scss";
 interface MyTeamPageProps {}
 import data from "../../../data.json";
-import imga from "./../../../assets/photo1.png";
-const MyTeamPage = ({}: PropsWithChildren<MyTeamPageProps>) => {
-  console.log(data[0].path);
+import CardContainer from "./CardContainer";
 
+const MyTeamPage = ({}: PropsWithChildren<MyTeamPageProps>) => {
   return (
     <div className="mtp-app">
       <header>
@@ -19,22 +18,13 @@ const MyTeamPage = ({}: PropsWithChildren<MyTeamPageProps>) => {
         </div>
       </header>
       <main>
-        <div className="card">
-          {data.map(({ fname, path }) => (
-            <div
-              key={fname}
-              style={{
-                backgroundImage: `url(./../../../assets/images/${path})`,
-                height: 600,
-              }}
-            >
-              <h3>{fname}</h3>
-              {/* <img src={`./../../../assets/images/${path}`} alt={fname} /> */}
-            </div>
-          ))}
-        </div>
+        <CardContainer data={data} />
       </main>
-      <footer>footer</footer>
+      <footer>
+        <p>
+          created by <span>latif-essam</span> - devChallenges.io
+        </p>
+      </footer>
     </div>
   );
 };

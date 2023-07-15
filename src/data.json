@@ -1,38 +1,50 @@
 [
   {
-    "path": "photo1.png",
+    "path": "/images/photo1.png",
     "fname": "Bill",
     "lname": "Mahoney",
-    "title": "Product  Owner"
+    "title": "Product  Owner",
+    "mid_desk": false,
+    "mid_mobile": false
   },
   {
-    "path": "photo2.png",
+    "path": "/images/photo2.png",
     "fname": "Saba",
     "lname": "Cabrea",
-    "title": "Art Director"
+    "title": "Art Director",
+    "mid_desk": true,
+    "mid_mobile": true
   },
   {
-    "path": "photo3.png",
+    "path": "/images/photo3.png",
     "fname": "Shae",
     "lname": "Le",
-    "title": "Tech Lead"
+    "title": "Tech Lead",
+    "mid_desk": false,
+    "mid_mobile": false
   },
   {
-    "path": "photo4.png",
+    "path": "/images/photo4.png",
     "fname": "Skylah",
     "lname": "Lu",
-    "title": "Ux Designer"
+    "title": "Ux Designer",
+    "mid_desk": false,
+    "mid_mobile": true
   },
   {
-    "path": "photo5.png",
+    "path": "/images/photo5.png",
     "fname": "Griff",
     "lname": "Richards",
-    "title": "Developer"
+    "title": "Developer",
+    "mid_desk": true,
+    "mid_mobile": false
   },
   {
-    "path": "photo6.png",
+    "path": "/images/photo6.png",
     "fname": "Stan",
     "lname": "John",
-    "title": "Developer"
+    "title": "Developer",
+    "mid_desk": false,
+    "mid_mobile": true
   }
 ]
